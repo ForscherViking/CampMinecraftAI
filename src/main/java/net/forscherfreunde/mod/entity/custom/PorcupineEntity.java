@@ -48,6 +48,7 @@ public class PorcupineEntity extends ModEntity {
         this.goalSelector.add(5, setzeZiele("Anschauen_Ziel", this));
         this.goalSelector.add(6, setzeZiele("Herumschauen_Ziel", this));
         this.goalSelector.add(7, setzeZiele("Grasen_Ziel", this));
+        this.goalSelector.add(5, setzeZiele("Fliehen_Ziel", this));
     }
 
     //Anpassen des VerfuehrungsItems

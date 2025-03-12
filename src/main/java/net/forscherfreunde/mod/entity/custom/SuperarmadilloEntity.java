@@ -19,17 +19,16 @@ import net.minecraft.world.World;
  */
 
 
+public class SuperarmadilloEntity extends ModEntity {
 
-public class PorcupineEntity extends ModEntity {
-
-    public PorcupineEntity(EntityType<? extends AnimalEntity> entityType, World world) {
+    public SuperarmadilloEntity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
 
     // Anpassen vom .get("custom_entity_name")
     @Override
     public PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return (PassiveEntity) ModEntities.ModEntitiesMap.get("porcupine").create(world);
+        return (PassiveEntity) ModEntities.ModEntitiesMap.get("superarmadillo").create(world);
     }
 
     @Override

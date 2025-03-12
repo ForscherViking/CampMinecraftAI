@@ -16,9 +16,6 @@ public class Mod {
         ModItems.registerItem(name, new Item(new FabricItemSettings().food(ModFoodComponents.erstelleEssensItem(Hunger, HungerModifizierer))));
     }
 
-//    Monster und Tiere Test
-
-
     //Allgemeine Funktionen - getter
     public static Item HoleItem(String name) {
         return ModItems.GetItem(name);

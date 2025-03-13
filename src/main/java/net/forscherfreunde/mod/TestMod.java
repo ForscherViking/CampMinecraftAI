@@ -6,7 +6,6 @@ import net.forscherfreunde.mod.entity.ModEntities;
 import net.forscherfreunde.mod.entity.custom.CloudyEntity;
 import net.forscherfreunde.mod.entity.custom.PorcupineEntity;
 import net.forscherfreunde.mod.entity.custom.SuperarmadilloEntity;
-import net.forscherfreunde.mod.entity.custom.TestEntity;
 import net.forscherfreunde.mod.registry.Mod;
 import net.forscherfreunde.mod.registry.item.ModItemGroups;
 import net.forscherfreunde.mod.registry.item.ModItems;
